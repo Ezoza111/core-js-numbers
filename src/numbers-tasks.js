@@ -122,9 +122,8 @@ function getAngleBetweenVectors(/* x1, y1, x2, y2 */) {
  *     5     => 5
  *     0     => 0
  */
-function getLastDigit(value) {
-  const newValue = value.toString();
-  return newValue[newValue.length - 1];
+function getLastDigit(/* value */) {
+  throw new Error('Not implemented');
 }
 
 /**
@@ -263,7 +262,6 @@ function getCube(num) {
 function getFibonacciNumber(/* index */) {
   throw new Error('Not implemented');
 }
-
 /**
  * Returns the sum of all numbers from 1 to n.
  *
@@ -275,12 +273,8 @@ function getFibonacciNumber(/* index */) {
  *   10 => 55 // (1+2+3+...+10)
  *   1  => 1
  */
-function getSumToN(n) {
-  let result;
-  for (let i = 0; i < n; i += i) {
-    result = n + i;
-  }
-  return result;
+function getSumToN(/* n */) {
+  throw new Error('Not implemented');
 }
 
 /**
@@ -294,8 +288,8 @@ function getSumToN(n) {
  *   202 => 4  // (2+0+2)
  *   5   => 5  // 5
  */
-function getSumOfDigits(num) {
-  return num;
+function getSumOfDigits(/* num */) {
+  throw new Error('Not implemented');
 }
 
 /**
